@@ -8,15 +8,13 @@ if all frames are loaded then no other request will send to the backend for segm
 
 ## Tech Stack
 
-VideoPlayer - videojs
-Backend - Express
-Frontend - Vite with React
+- VideoPlayer : videojs
+- Backend : Express
+- Frontend : Vite with React
 
 ## Tools
 
 Postman - API handling and Checking responses
-
----
 
 ## Topics Learned
 
