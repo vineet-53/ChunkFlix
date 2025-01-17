@@ -4,8 +4,6 @@ This app is only to learn about how the video fetches from the frontend at each 
 where the video comes in segments not loaded fully to save the network usage and fetches the required frames
 if all frames are loaded then no other request will send to the backend for segments.
 
----
-
 ## Tech Stack
 
 - VideoPlayer : videojs
