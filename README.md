@@ -1,4 +1,4 @@
-# Video Chunking App
+# ChunkFlix
 
 This app is only to learn about how the video fetches from the frontend at each time line similar to youtube
 where the video comes in segments not loaded fully to save the network usage and fetches the required frames
