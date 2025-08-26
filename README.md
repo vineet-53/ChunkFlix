@@ -1,47 +1,49 @@
-# ChunkFlix
 
-This app is only to learn about how the video fetches from the frontend at each time line similar to youtube
-where the video comes in segments not loaded fully to save the network usage and fetches the required frames
-if all frames are loaded then no other request will send to the backend for segments.
+# 🎥 HLS Streamer  
 
-## Tech Stack
+A web application for adaptive video streaming built using **HLS**, **FFMPEG**, **Node.js**, **Video.js**, and **Multer**.  
+This project enables seamless playback of video content by efficiently serving video segments optimized for varying bandwidths.  
 
-- VideoPlayer : videojs
-- Backend : Express
-- Frontend : Vite with React
-
-## Tools
-
-Postman - API handling and Checking responses
-
-## Topics Learned
-
-1. **HLS FORMAT**
-
-   - protocol developed by apple to easily stream on web using chunks of media data transfer
-   - If the transfer speed is slow in mobile then stream will be low quality other wise it will adjust it self to the best quality if the speed is good only if the file is converted into different quality formats like (1080p, 720p, 360p)
-
-2. **FILE conversion in Segments**
-
-   - Using FFMPEG tool or package available for linux, win and mac.
-   - Powerful tool to convert any video format to other format or Can convert any video to different frames with different extensions
-
-3. **VideoJS**
-
-   - Used to display the index.i3u8 file to render in chunks of segements[00*].ts files
-   - Video player which can display any static video file or i3u8 extension to display HLS format file in chunks served from backend statically.
-
-4. **Multer**
-
-   - nodejs application to handle **multipart/form-data** types of information send in a request.
-   - Used to store the files coming from the request to the server on specified folder.
-   - [Multer Docs](https://www.geeksforgeeks.org/multer-npm/)
+📅 **Development Period:** Dec 2024 – Jan 2025  
+💻 **Source Code:** [HLS Streamer on GitHub](https://github.com/vineet-53/ChunkFlix)  
 
 ---
 
-### Features To Implement in Future
+## ✨ Features  
+- Adaptive streaming using the **HLS (HTTP Live Streaming)** format  
+- Backend processing with **FFMPEG** for video segmentation  
+- Efficient serving of video chunks via a **Node.js** backend  
+- Integration with **Video.js** player for smooth playback  
+- File uploading handled using **Multer** middleware  
 
-- [ ] Login / Signup dashboard
-- [ ] User Profile
-- [ ] Uploading Video Files with Video Details
-- [ ] Live Streaming Using MPEG DASH or HLS Protocol
+---
+
+## 🏗️ Tech Stack  
+- **Streaming Format:** HLS  
+- **Backend:** Node.js, Express  
+- **Video Processing:** FFMPEG  
+- **Frontend Player:** Video.js  
+- **File Upload:** Multer  
+
+---
+
+## 📚 Learnings from This Project  
+- Implemented video segmentation and adaptive streaming with HLS  
+- Utilized FFMPEG for on-the-fly video conversion and chunking  
+- Built REST API endpoints to serve video segments efficiently  
+- Integrated Video.js for smooth client-side video playback  
+- Managed multipart file uploads securely with Multer  
+
+---
+
+## 🔮 Future Improvements  
+- Add support for live streaming  
+- Implement DRM (Digital Rights Management) for content protection  
+- Enhance UI/UX for better video browsing and control  
+- Add analytics for player usage and streaming quality  
+
+---
+
+## ✍️ Author  
+**Vineet Singh**  
+💻 Computer Science student and developer specializing in video streaming, full-stack web apps, and open-source projects.  
